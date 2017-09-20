@@ -1,0 +1,28 @@
+.navbar-custom {
+  font-family: 'Times New Roman';
+  padding: 5px;
+  background-color: #ff8100;
+  border-style: dashed; }
+
+._color {
+  background-color: #fbfbfb; }
+
+.course {
+  background-color: lightgrey;
+  width: 300px;
+  border: 5px solid skyblue; }
+
+.h4 {
+  text-align: center; }
+
+._font {
+  font-family: "Times New Roman"; }
+
+  ._footer{
+    height: 100px;
+    width: 100px;
+    color:gray;
+    margin-bottom: 60px;
+  }
+
+/*# sourceMappingURL=lect.css.map */

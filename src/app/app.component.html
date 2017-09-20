@@ -1,3 +1,23 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="navbar navbar-custom">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Lecturer Info<span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li class="active"><a routerLink="/lecturerinfo" style="color:black">Lecturer Info</a></li>
+        <li><a routerLink="/lectures" style="color:black">Lectures</a></li>
+        <li><a routerLink="/course" style="color:black">Course Syallabus</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+        
+</nav>
+
+      <!--<div class="col-sm-6">
+          <footer>
+           RdMUNIVERSAL
+          </footer>   
+        </div>--> 
+<router-outlet></router-outlet>
+

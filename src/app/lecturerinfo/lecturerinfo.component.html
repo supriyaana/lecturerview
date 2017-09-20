@@ -1,0 +1,35 @@
+ <div class="container _color">
+   <div class="col-sm-offset-2 col-sm-8">
+   <div class="_font">
+    <h4> Lecturer Info </h4>
+    </div>
+    <div class="row">
+      <div class="table-responsive">
+      <table class="table">   
+        <thead>
+        <tr>
+        <th width=400>Name</th>
+        <th width=400>MobileNumber</th>
+        <th width=400>Address</th>
+        <th width=400>Salary</th>
+        <th width=400>JoiningDate</th>
+        <th width=400> Qualification</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr class="info" *ngFor="let lec of lecturers">
+          <td>{{lec.name}}</td>
+          <td>{{lec.mobile}}</td>
+          <td>{{lec.address}}</td>
+          <td>{{lec.salary}}</td>
+          <td>{{lec.date}}</td>
+          <td>{{lec.qualification}}</td>
+          <td>
+          </td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
+      </div>
+   </div>
+   </div> 
